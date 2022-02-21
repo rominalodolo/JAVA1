@@ -10,19 +10,25 @@ package Lesson5;
  * @author rominalodolo
  */
 public class Arrays {
+
     public static void main(String[] args) {
         String[] names = {"Sammy", "Sally", "Sean"};
-        int [] ages = new int[3];
+        int[] ages = new int[3];
         ages[0] = 35;
         ages[1] = 20;
-        ages[2] = 27;    
+        ages[2] = 27;
 //      ages[3] = 34; out of bounds length exeption error 
 
-        for(String name: names){
-            System.out.println(name + ", ");
-        } 
-        
-        for(int age: ages){
+        for (String name : names) {
+            if (name == "Shelly") {
+                System.out.println("We found " + name + ".");
+                break;
+            }
+            else 
+                System.out.println(name + ", ");
+        }
+
+        for (int age : ages) {
             System.out.println(age);
         }
     }
