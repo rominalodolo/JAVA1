@@ -25,3 +25,8 @@ To run your file - right click
 Compliing the java file in terminal: New file at terminal. `cjava file name.java`
 ![newterminalatfolderlesson1](https://user-images.githubusercontent.com/83961643/154949869-402ecab5-58b7-4fbc-948c-323f111bf7dc.jpeg)
 
+Now that it's a readable file `java filename.java`
+![readablefile](https://user-images.githubusercontent.com/83961643/154951150-2504e9d1-62f6-4c61-8d2d-9dd6b242e5a2.jpeg)
+
+
+Quiz: 
