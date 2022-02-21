@@ -15,3 +15,13 @@ Mainmethod playbutton:
 
 `sout` `ctrl` `space`
 ![cntrlspace](https://user-images.githubusercontent.com/83961643/154949276-955c8703-a488-4968-97d5-176d658a59d4.jpg)
+
+To run your file - right click 
+![rightclick](https://user-images.githubusercontent.com/83961643/154949472-dd1a091f-e72b-4f12-9e2d-7e341c984be6.jpg)
+
+
+![run](https://user-images.githubusercontent.com/83961643/154949714-d40ec41e-cec3-47b7-9ddd-5eb667841748.jpeg)
+
+Compliing the java file in terminal: New file at terminal. `cjava file name.java`
+![newterminalatfolderlesson1](https://user-images.githubusercontent.com/83961643/154949869-402ecab5-58b7-4fbc-948c-323f111bf7dc.jpeg)
+
