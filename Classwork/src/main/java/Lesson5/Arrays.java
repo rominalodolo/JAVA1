@@ -19,6 +19,11 @@ public class Arrays {
 //      ages[3] = 34; out of bounds length exeption error 
 
         for(String name: names){
-            System.out.println(name + ", ");}        
+            System.out.println(name + ", ");
+        } 
+        
+        for(int age: ages){
+            System.out.println(age);
+        }
     }
 }
