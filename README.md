@@ -14,7 +14,8 @@ Create a class then you can create a main class with
 `psvm` `ctrl` `space` 
 ![ctrlspace](https://user-images.githubusercontent.com/83961643/154947859-ea081059-8a9c-4ad1-ba3f-baa74317cdb0.jpg)
 
-Mainmethod playbutton:
+Main method has a green play button:
+
 ![mainmethod_playbutton](https://user-images.githubusercontent.com/83961643/154948416-6501a658-d65d-42c7-b97d-068c08cd2e23.jpeg)
 
 `sout` `ctrl` `space`
