@@ -58,3 +58,20 @@ Increment and Decrement Operatos
 ![incrementdecrement](https://user-images.githubusercontent.com/83961643/155092333-35af7cec-b450-480a-a6e8-cc10ca993753.jpeg)
 
 
+Lesson 6
+![lesson6](https://user-images.githubusercontent.com/83961643/155093071-02d029df-670b-44c6-bf1f-ea8a32ebab93.jpeg)
+![publicclasstoprivate](https://user-images.githubusercontent.com/83961643/155093123-e71cf8ae-ff5c-434f-81d9-0d50ecfc3655.jpeg)
+![private](https://user-images.githubusercontent.com/83961643/155093136-bdaf87c7-ba3a-4d20-87e1-b8a0f023bae9.jpeg)
+
+![insertcodegettersandsetters](https://user-images.githubusercontent.com/83961643/155093475-40ed78c6-0fca-4ff8-8b44-a93cbb92bd3b.jpg)
+![Getterand Settercode](https://user-images.githubusercontent.com/83961643/155093747-f16282a0-1498-4773-b598-8c56896b4752.jpg)
+
+![popupandselect](https://user-images.githubusercontent.com/83961643/155093168-40f72436-ea2a-4280-9baf-b577b2f10a5c.jpeg)
+
+![gettersandsetterscode](https://user-images.githubusercontent.com/83961643/155093197-f9fb71ca-d451-4b45-9321-d1802bafec42.jpeg)
+
+![mainClasssettingFields](https://user-images.githubusercontent.com/83961643/155093204-f15ae2e8-5bd9-4af1-a98a-76934b185c6d.jpeg)
+![employee](https://user-images.githubusercontent.com/83961643/155093214-8271f788-8c9f-4781-b1f5-d571edcc5adb.jpeg)
+
+
+![1](https://user-images.githubusercontent.com/83961643/155093891-302b990a-37de-4513-84d5-d99e4af6c1d2.jpeg)
