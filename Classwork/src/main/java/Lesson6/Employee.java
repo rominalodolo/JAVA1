@@ -17,6 +17,14 @@ public class Employee {
     private int age;
     private String homeAddress;
 
+    public Employee(String firstName, String lastName, int empId, int age, String homeAddress) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.empId = empId;
+        this.age = age;
+        this.homeAddress = homeAddress;
+    }
+    
     public String getFirstName() {
         return firstName;
     }
