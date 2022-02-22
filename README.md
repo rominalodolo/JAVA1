@@ -86,3 +86,7 @@ How to make a space `\n`
 ![otes](https://user-images.githubusercontent.com/83961643/155094524-0995c241-4aa8-4297-9452-076224b96433.jpeg)
 
 ![generate](https://user-images.githubusercontent.com/83961643/155094463-cf0832e0-49c6-4d81-8e11-bad3b5b6eb59.jpeg)
+
+Syntax for Object Instances and Instantiation:
+`![insertcodegettersandsetters](https://user-images.githubusercontent.com/83961643/155093475-40ed78c6-0fca-4ff8-8b44-a93cbb92bd3b.jpg)
+`
