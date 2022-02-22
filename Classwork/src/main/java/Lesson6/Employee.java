@@ -10,5 +10,9 @@ package Lesson6;
  * @author rominalodolo
  */
 public class Employee {
-    
+    public String firstName;
+    public String lastName;
+    public int empId;
+    public int age;
+    public String homeAddress; 
 }
