@@ -99,3 +99,9 @@ A heap is a special data structure in Java. A heap is a tree-based data structur
 Storing Arrays of Object references in memory 
 ![arrays](https://user-images.githubusercontent.com/83961643/155101802-cdcea556-40fd-4e69-bfbc-bddfb0be528c.jpeg)
 ![run](https://user-images.githubusercontent.com/83961643/155101816-db8d01d0-bda4-4dd6-8b61-178062c3c902.jpeg)
+
+
+## Debug the Soccer App
+![debug](https://user-images.githubusercontent.com/83961643/155105892-6eae269d-e42d-4e2b-a69d-360d628b1b9b.jpeg)
+
+![variables](https://user-images.githubusercontent.com/83961643/155105922-88374b8a-bd32-437b-98cf-18fcf6ea58cf.jpeg)
