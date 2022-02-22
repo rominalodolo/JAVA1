@@ -118,3 +118,11 @@ The String Class:
 ![exampleStringClass](https://user-images.githubusercontent.com/83961643/155123511-c204b562-5d02-4902-b8ac-cb3817ae24d8.jpeg)
 
 ![example2](https://user-images.githubusercontent.com/83961643/155124640-cd075a18-2175-4a55-972c-919e825fcecb.jpeg)
+
+More increment and decerment operators:
+![incrementanddecrementoperators](https://user-images.githubusercontent.com/83961643/155129084-c27fd7c6-e5a2-4669-99e0-361759cd4e8c.jpeg)
+
+
+Promotion vs Casting 
+Promotion is converting a small primative data types to larger data types
+and Casting is like demoting the data type from larger to smaller. 
