@@ -11,8 +11,17 @@ package Lesson6;
  */
 public class Main {
     public static void main(String[] args) {
-        Employee emp1 = new Employee("Amanda","Ally",001,43,"50 Signal Rd, Riverside, Pretoria.");
-        Employee emp2 = new Employee("Anne", "Gurdle",002,39,"2 Shepstone Gardens, SunnyHill, Pretoria.");
+        Employee emp1 = new Employee("Amanda", "Ally", 001, 43, "50 Signal Rd, Riverside, Pretoria.");
+        Employee emp2 = new Employee("Anne", "Gurdle", 002, 39, "2 Shepstone Gardens, SunnyHill, Pretoria.");
+        Employee emp3 = new Employee("Armand", "Skulk", 003, 57, "6a Mission Heights, Corner Rd, Bluedale, Pretoria.");
+        
+        Employee[] myEmployees = {emp1, emp2, emp3};
+        
+        for(Employee emp : myEmployees){
+            emp.empDetails();
+            System.out.println("\n");
+        }
+
 //        emp1.firstName = "Amanda";
 //        emp1.lastName = "Ally";
 //        emp1.empId = 001;
@@ -39,9 +48,9 @@ public class Main {
 //        System.out.println("Employee ID: " + emp1.empId);
 //        System.out.println("Home Address: " + emp1.homeAddress);
 
-        emp1.empDetails();
-        System.out.println("\n");
-        emp2.empDetails();
-        
+//        emp1.empDetails();
+//        System.out.println("\n");
+//        emp2.empDetails();
+//        
     }
 }
