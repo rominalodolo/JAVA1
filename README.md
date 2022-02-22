@@ -39,3 +39,15 @@ Now that it's a readable file `java filename.java`
 
 
 Quiz: 
+![quizanswer](https://user-images.githubusercontent.com/83961643/155091737-32abc545-467c-4289-98ee-0e20b572556c.jpeg)
+
+ln means New line in `println`
+![newline_LN](https://user-images.githubusercontent.com/83961643/155091901-e2111563-cb82-4a06-972c-c1cab46c41a8.jpeg)
+
+this will print on the same line
+![print_sameline](https://user-images.githubusercontent.com/83961643/155091999-81dad2aa-c3cb-4a21-992e-41d63ba938f4.jpeg)
+
+Quiz:
+![quiz2](https://user-images.githubusercontent.com/83961643/155092081-5e652876-9542-4cfa-a81a-451a4a081e09.jpeg)
+
+
