@@ -50,4 +50,11 @@ this will print on the same line
 Quiz:
 ![quiz2](https://user-images.githubusercontent.com/83961643/155092081-5e652876-9542-4cfa-a81a-451a4a081e09.jpeg)
 
+Initializing and Assigning Numeric Values:
+![intvsdouble](https://user-images.githubusercontent.com/83961643/155092286-df56a36c-ade3-4359-b4ad-3ce8217023d4.jpeg)
+
+Increment and Decrement Operatos
+
+![incrementdecrement](https://user-images.githubusercontent.com/83961643/155092333-35af7cec-b450-480a-a6e8-cc10ca993753.jpeg)
+
 
