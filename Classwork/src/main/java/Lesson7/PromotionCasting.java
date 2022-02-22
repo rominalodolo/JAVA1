@@ -18,7 +18,14 @@ public class PromotionCasting {
         num3 = num1 / num2;
         
         System.out.println("Result: " + num3);
+        System.out.println("\n");
         
-        
+        short a, b, c;
+        a = 12;
+        b = 15;
+        c = (short)(a + b);
+//        c = a + b;
+// error         
+        System.out.println("Automatic promotion: " + c);
     }
 }
