@@ -114,3 +114,6 @@ Running the for loop:
 
 End the debug by pressing the green button ![enddebug](https://user-images.githubusercontent.com/83961643/155107493-115f74f0-3aff-40d7-97f5-9c9f7f004490.jpeg)
 
+The String Class:
+![exampleStringClass](https://user-images.githubusercontent.com/83961643/155123511-c204b562-5d02-4902-b8ac-cb3817ae24d8.jpeg)
+
