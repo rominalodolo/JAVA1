@@ -89,3 +89,8 @@ How to make a space `\n`
 
 Syntax for Object Instances and Instantiation:
 `<class name> variable = new <class name>()`
+- Decalre the reference.
+- Instantiate the object by using the new keyword and the class constructor method.
+- Assign the object to the reference.  
+
+
