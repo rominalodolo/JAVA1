@@ -93,4 +93,9 @@ Syntax for Object Instances and Instantiation:
 - Instantiate the object by using the new keyword and the class constructor method.
 - Assign the object to the reference.  
 
+Heap data structure 
+A heap is a special data structure in Java. A heap is a tree-based data structure and can be classified as a complete binary tree. All the nodes of the heap are arranged in a specific order. [Read More](https://www.softwaretestinghelp.com/heap-data-structure-in-java/)
 
+Storing Arrays of Object references in memory 
+![arrays](https://user-images.githubusercontent.com/83961643/155101802-cdcea556-40fd-4e69-bfbc-bddfb0be528c.jpeg)
+![run](https://user-images.githubusercontent.com/83961643/155101816-db8d01d0-bda4-4dd6-8b61-178062c3c902.jpeg)
