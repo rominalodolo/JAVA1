@@ -10,5 +10,7 @@ package Lesson6;
  * @author rominalodolo
  */
 public class Main {
-    
+    public static void main(String[] args) {
+        Employee emp1 = new Employee();
+    }
 }
