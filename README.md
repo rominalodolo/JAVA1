@@ -117,3 +117,4 @@ End the debug by pressing the green button ![enddebug](https://user-images.githu
 The String Class:
 ![exampleStringClass](https://user-images.githubusercontent.com/83961643/155123511-c204b562-5d02-4902-b8ac-cb3817ae24d8.jpeg)
 
+![example2](https://user-images.githubusercontent.com/83961643/155124640-cd075a18-2175-4a55-972c-919e825fcecb.jpeg)
