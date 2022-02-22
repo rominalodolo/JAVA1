@@ -105,3 +105,9 @@ Storing Arrays of Object references in memory
 ![debug](https://user-images.githubusercontent.com/83961643/155105892-6eae269d-e42d-4e2b-a69d-360d628b1b9b.jpeg)
 
 ![variables](https://user-images.githubusercontent.com/83961643/155105922-88374b8a-bd32-437b-98cf-18fcf6ea58cf.jpeg)
+![debugging](https://user-images.githubusercontent.com/83961643/155107182-18598e1c-b181-443f-8e30-9f3d69d4700f.jpeg)
+
+
+Running the for loop:
+![runningtheforloop](https://user-images.githubusercontent.com/83961643/155107125-960f149d-05e2-439e-a9df-5567d63fa050.jpeg)
+![outpuy](https://user-images.githubusercontent.com/83961643/155107132-e3d12912-570c-4615-b20c-2dad01e9d156.jpeg)
