@@ -75,3 +75,14 @@ Lesson 6
 
 
 ![1](https://user-images.githubusercontent.com/83961643/155093891-302b990a-37de-4513-84d5-d99e4af6c1d2.jpeg)
+![insertingconstructer](https://user-images.githubusercontent.com/83961643/155094197-966ba49e-ea43-4651-9f53-2a3f90b61942.jpg)
+
+![popupconstructer](https://user-images.githubusercontent.com/83961643/155094397-8cc86825-ed70-4624-a56f-ca30ce584421.jpg)
+![constructercode](https://user-images.githubusercontent.com/83961643/155094503-7c284ef8-99ee-4357-a63d-e61c31b51eb1.jpeg)
+![mainclassNewcodeConstructor](https://user-images.githubusercontent.com/83961643/155094511-ed7ed360-616e-493a-ae79-7651097d85d4.jpeg)
+
+How to make a space `\n`
+![space n](https://user-images.githubusercontent.com/83961643/155094520-36249890-369e-4e9f-80f1-e20726718923.jpeg)
+![otes](https://user-images.githubusercontent.com/83961643/155094524-0995c241-4aa8-4297-9452-076224b96433.jpeg)
+
+![generate](https://user-images.githubusercontent.com/83961643/155094463-cf0832e0-49c6-4d81-8e11-bad3b5b6eb59.jpeg)
