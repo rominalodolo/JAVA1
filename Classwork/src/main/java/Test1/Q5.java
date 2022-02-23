@@ -1,7 +1,7 @@
-package QuizQ5;
+package Test1;
 
 
-public class Question5 {
+public class Q5 {
 
     public static void main(String[] args){
         String myStr = "good";
