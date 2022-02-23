@@ -72,4 +72,11 @@ public class Customer {
         System.out.println("Customer ID: " + cusId);
         System.out.println("Email Address: " + email);
     }
+
+    
+    public void checkBannedCustomers(String surname) {
+        if((cuslastName == lastName)){
+            System.out.println("This customer is banned: " + lastName);
+        }
+    }
 }
