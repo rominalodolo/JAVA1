@@ -20,12 +20,13 @@ public class PromotionCasting {
         System.out.println("Result: " + num3);
         System.out.println("\n");
         
+//        Automatic promotion that needs to be cast down
         short a, b, c;
         a = 12;
         b = 15;
         c = (short)(a + b);
 //        c = a + b;
 // error         
-        System.out.println("Automatic promotion: " + c);
+        System.out.println("Casting Result: " + c);
     }
 }
