@@ -1,7 +1,7 @@
-package strings;
+package QuizQ5;
 
 
-public class StringFromChar {
+public class Question5 {
 
     public static void main(String[] args){
         String myStr = "good";
