@@ -11,6 +11,9 @@ package Lesson9;
  */
 public class ShoppingCart {
     public static void main(String[] args) {
-        Shirt shirt01 = new Shirt(12, "Floral", 'B', 12.87)
+        Shirt shirt01 = new Shirt(12, "Floral", 'B', 12.87);
+        shirt01.setColorCode('V');
+        
+        System.out.println(shirt01.print());        
     }
 }
