@@ -23,6 +23,19 @@ public class Shirt {
         this.price = price;
     }
 
+    public Shirt(int shirtID, String description, char colorCode) {
+        this.shirtID = shirtID;
+        this.description = description;
+        this.colorCode = colorCode;
+    }
+
+    public Shirt(String description, char colorCode, double price) {
+        this.description = description;
+        this.colorCode = colorCode;
+        this.price = price;
+    }
+
+    
     public int getShirtID() {
         return shirtID;
     }
