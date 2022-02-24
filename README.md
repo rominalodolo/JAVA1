@@ -178,3 +178,12 @@ Access Controls:
 
 `public` Accessible by anyone 
 `private` Accessible only within the class
+
+Encapsulation: 
+- Hiding object fields 
+    - Safer access through `getter` and `setter` methods
+- Mandates programming to the interface
+    - A method can change the data type to match the field
+    - A class can be changed as long as interface remains the same 
+- (OO) Encapsulation encourages good OBJECT-ORIENTATED design.
+
