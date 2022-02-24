@@ -187,3 +187,4 @@ Encapsulation:
     - A class can be changed as long as interface remains the same 
 - (OO) Encapsulation encourages good OBJECT-ORIENTATED design.
 
+Void type methods can have return statements but they can't return any values. 
