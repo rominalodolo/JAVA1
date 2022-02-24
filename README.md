@@ -174,7 +174,7 @@ JAVA METHOD OVERLOADING: A class can contain multiple methods that have the same
 Access Controls:
 - Allows you to hide fields and methods from other classes 
 - You can determine how internal data gets modified
-- You can keep implementation seperate from the public interface
+- You can keep implementation separate from the public interface
 
 `public` Accessible by anyone 
 `private` Accessible only within the class
