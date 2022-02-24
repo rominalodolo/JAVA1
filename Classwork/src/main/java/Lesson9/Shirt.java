@@ -11,17 +11,16 @@ package Lesson9;
  */
 public class Shirt {
 
-    private int shirtID = 0;
-    private String description = "-description required-";
-    private char colorCode = 'U';
-    private double price = 0.0;
+    private int shirtID;
+    private String description;
+    private char colorCode;
+    private double price;
 
-    public char getColorCode() {
-        return colorCode;
-    }
-
-    public void setColorCode(char newCode) {
-        colorCode = newCode;
+    public Shirt(int shirtID, String description, char colorCode, double price) {
+        this.shirtID = shirtID;
+        this.description = description;
+        this.colorCode = colorCode;
+        this.price = price;
     }
 
     public int getShirtID() {
@@ -40,6 +39,25 @@ public class Shirt {
         this.description = description;
     }
 
+    public char getColorCode() {
+        return colorCode;
+    }
+
+    public void setColorCode(char colorCode) {
+        if (colorCode == 'B') {
+            this.colorCode = colorCode;
+        } else if (colorCode == 'G') {
+            this.colorCode = colorCode;
+        } else if (colorCode == 'R') {
+            this.colorCode = colorCode;
+        } else if (colorCode == 'Y') {
+            this.colorCode = colorCode;
+        } else {
+            this.colorCode = 'U';
+        }
+    }
+
+    
     public double getPrice() {
         return price;
     }
@@ -48,4 +66,10 @@ public class Shirt {
         this.price = price;
     }
 
+    public String print(){
+        return "Shirt ID: " + shirtID + "\n" + 
+                "Description: " + description + "\n" + 
+                "Colour Code: " + colorCode + "\n" + 
+                "Price: " + price + "\n" + 
+    }
 }
