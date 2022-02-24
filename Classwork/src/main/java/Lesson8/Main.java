@@ -22,5 +22,12 @@ public class Main {
             cus.cusDetails();
             System.out.println("\n");
         }
+        
+        for (String customer : bannedCustomer){
+            if(customer == cus1.getLastName()){
+                cus1.checkBannedCustomers("Skulk");
+            }
+        }
+            
     }
 }
