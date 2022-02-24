@@ -126,3 +126,10 @@ More increment and decerment operators:
 Promotion vs Casting 
 Promotion is converting a small primative data types to larger data types
 and Casting is like demoting the data type from larger to smaller. 
+
+
+Static methods vs Variables 
+- A static variable is shared by all objects in a class.
+- An instance variable is unique to an individual object. 
+Class Math [READ MORE](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
+
