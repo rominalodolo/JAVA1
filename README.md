@@ -131,7 +131,7 @@ and Casting is like demoting the data type from larger to smaller.
 Static methods vs Variables 
 - A static variable is shared by all objects in a class.
     - Can't access instance methods or fields.
-    - boolean, int, double & Math classes are all static examples. 
+    - boolean, int, double, System & Math classes are all static examples. 
 - An instance variable is unique to an individual object. 
     - can access static methods of fields. 
 
@@ -143,4 +143,15 @@ Functionality of the `Math` Class:
     - Trigonometric
     - Random 
     - Access to common mathematical constants, such as the value of PI `Math.PI` 
+Java class library: `System` & `Math` class - contain only static methods and variables.
+    therefore  you don't need to create a new object every time your program does a math problem. 
 
+Looking up in the JDK docs: 
+SEARCH: java.lang.Boolean
+[Info](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Boolean.html)
+
+SEARCH: java.lang.Integer
+[Info](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Integer.html)
+
+SEARCH: java.lang.Double
+[Info](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Double.html)
