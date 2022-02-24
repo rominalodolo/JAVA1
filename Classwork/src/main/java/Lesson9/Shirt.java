@@ -53,7 +53,7 @@ public class Shirt {
         } else if (colorCode == 'Y') {
             this.colorCode = colorCode;
         } else {
-            this.colorCode = 'U';
+            System.out.println("Invalid color code. Use R, G, B or Y.");;
         }
     }
 
@@ -70,6 +70,6 @@ public class Shirt {
         return "Shirt ID: " + shirtID + "\n" + 
                 "Description: " + description + "\n" + 
                 "Colour Code: " + colorCode + "\n" + 
-                "Price: " + price + "\n" + 
+                "Price: " + price + "\n";
     }
 }
