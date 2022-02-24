@@ -23,7 +23,22 @@ public class Main {
             System.out.println("\n");
         }
         
-        for (String customer : bannedCustomer){
+        String[] bannedCustomers = {"Skulk", "Sully", "Suzette"};
+        
+        Customer cus4 = new Customer("Herald", "Sully", 030, "28-03-1999", "HeraldSully@gmail.com");
+        Customer cus5 = new Customer("Hannah", "Suzette", 031, "04-10-1989", "Suzettehannah@gmail.com");
+        
+        cus4.cusDetails();
+        
+        
+//        Shopping List:
+        cus1.displayItems("Pants");
+        cus1.displayItems("Pink Shirt", "Bananas");
+        cus1.displayItems("Whey protien", "Milk", "Shorts");
+        
+        
+//        Check banned customer: 
+        for (String customer : bannedCustomers){
             if(customer == cus1.getLastName()){
                 cus1.checkBannedCustomers("Skulk");
             }

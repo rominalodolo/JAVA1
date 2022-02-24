@@ -65,6 +65,12 @@ public class Customer {
         this.email = email;
     }
 
+    public void checkBannedCustomers(String surname) {
+        if ((lastName == surname)) {
+            System.out.println("This customer is banned: " + lastName);
+        }
+    }
+
     public void cusDetails() {
         System.out.println("Name: " + firstName);
         System.out.println("Surname: " + lastName);
@@ -73,10 +79,19 @@ public class Customer {
         System.out.println("Email Address: " + email);
     }
 
-    
-    public void checkBannedCustomers(String surname) {
-        if((cuslastName == lastName)){
-            System.out.println("This customer is banned: " + lastName);
-        }
+    public void displayItems(String item) {
+        System.out.println("Item: " + item);
     }
+
+    public void displayItems(String item1, String item2) {
+        System.out.println("Item 1: " + item1);
+        System.out.println("Item 2: " + item2);
+    }
+
+    public void displayItems(String item1, String item2, String item3) {
+        System.out.println("Item 1: " + item1);
+        System.out.println("Item 2: " + item2);
+        System.out.println("Item 3: " + item3);
+    }
+
 }
