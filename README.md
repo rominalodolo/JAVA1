@@ -158,3 +158,14 @@ SEARCH: java.lang.Double
 
 Explaining Parameters vs Arguments: 
 ![WorkerVsCaller](https://user-images.githubusercontent.com/83961643/155485905-64cba56f-9eeb-4ceb-b194-1bc9b6b2f66f.png)
+
+
+Method Overloading:
+- Same name
+- Different signatures 
+    - number of parameters 
+    - types of parameters
+    - order of parameters
+- may have different/ similar functionality
+- widely used in the foundation classes
+JAVA METHOD OVERLOADING: A class can contain multiple methods that have the same name but different arguments. 
