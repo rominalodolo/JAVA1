@@ -204,3 +204,11 @@ relational Operators:
 
 terany conditional operators:
 ![teranyconditionalop](https://user-images.githubusercontent.com/83961643/155676093-9f1d4e97-8388-45c8-90f5-ae7eb7dc0ea9.jpeg)
+
+Switch Constucts:
+When to use
+- Equality (not a range)
+- a single value
+- against fixed known values at compile time 
+
+
