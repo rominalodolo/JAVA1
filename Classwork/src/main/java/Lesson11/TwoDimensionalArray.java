@@ -9,12 +9,8 @@ package Lesson11;
  *
  * @author rominalodolo
  */
-public class ArgsTest {
+public class TwoDimensionalArray {
     public static void main(String[] args) {
-        int arg1 = Integer.parseInt(args[0]);
-        int arg2 = Integer.parseInt(args[1]);
-                
-        System.out.println("Total: " + (arg1 + arg2));
-        
+        int[][] yearlySales = new int[4][4];
     }
 }
