@@ -192,3 +192,7 @@ Void type methods can have return statements but they can't return any values.
 
 Operators:
 If you compare two objects together - DON'T use operators rather use methods. Because of the way it is stored in memory - rather use `equals` method than `==`
+![incrementanddecrementoperators](https://user-images.githubusercontent.com/83961643/155676056-357470b4-51a3-4bda-9372-876c59f5e0bd.jpeg)
+![conditionaloperators](https://user-images.githubusercontent.com/83961643/155676075-e26b1123-9e24-41a0-aef9-fed550774b36.jpeg)![relationalOperators](https://user-images.githubusercontent.com/83961643/155676086-0da4a8d0-ab3b-4626-acc1-c99af0dc2eaf.jpeg)
+
+![teranyconditionalop](https://user-images.githubusercontent.com/83961643/155676093-9f1d4e97-8388-45c8-90f5-ae7eb7dc0ea9.jpeg)
