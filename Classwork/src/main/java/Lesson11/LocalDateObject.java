@@ -9,6 +9,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.chrono.JapaneseDate;
+import java.time.format.DateTimeFormatter;
 
 
 /**
@@ -21,6 +22,7 @@ public class LocalDateObject {
         LocalDateTime myDateTime = LocalDateTime.now();
         LocalTime myTime = LocalTime.now();
         JapaneseDate jdate = JapaneseDate.from(myDate);
+        String sDate = myDateTime.format(DateTimeFormatter.ISO_DATE_TIME);
         
         System.out.println("Today's Date: " + myDate);
         System.out.println("Today's Date & Time: " + myDateTime);
@@ -28,5 +30,6 @@ public class LocalDateObject {
         System.out.println("Japanese Date: " + jdate);
         System.out.println("Today's date plus 15 months: " + myDate.plusMonths(15));
         System.out.println("Today's date minus 5 months: " + myDate.minusMonths(5));
+        System.out.println("ISO Date Time format: " + sDate);
     }
 }
