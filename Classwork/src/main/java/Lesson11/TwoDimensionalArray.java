@@ -35,7 +35,8 @@ public class TwoDimensionalArray {
             System.out.println("Year " + year + ":");
             year++;
             for(int j = 0; j < yearlySales[i].length; j++)
-                System.out.println("\t" +yearlySales[i][j]);
+                System.out.println("\tQ" + (j+1) + " " + yearlySales[i][j]);
+            System.out.println();
                 }
     }
 }
