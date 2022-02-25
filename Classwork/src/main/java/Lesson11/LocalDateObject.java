@@ -26,5 +26,7 @@ public class LocalDateObject {
         System.out.println("Today's Date & Time: " + myDateTime);
         System.out.println("Today's Time: " + myTime);
         System.out.println("Japanese Date: " + jdate);
+        System.out.println("Today's date plus 15 months: " + myDate.plusMonths(15));
+        System.out.println("Today's date minus 5 months: " + myDate.minusMonths(5));
     }
 }
