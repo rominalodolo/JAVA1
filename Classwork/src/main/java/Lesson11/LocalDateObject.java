@@ -10,6 +10,8 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.chrono.JapaneseDate;
 import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+
 
 
 /**
@@ -23,6 +25,9 @@ public class LocalDateObject {
         LocalTime myTime = LocalTime.now();
         JapaneseDate jdate = JapaneseDate.from(myDate);
         String sDate = myDateTime.format(DateTimeFormatter.ISO_DATE_TIME);
+        String lDate = myDateTime.format(DateTimeFormatter.BASIC_ISO_DATE);
+        String mediumDate = myDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM));
+        String shortDate = myDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT));
         
         System.out.println("Today's Date: " + myDate);
         System.out.println("Today's Date & Time: " + myDateTime);
@@ -31,5 +36,8 @@ public class LocalDateObject {
         System.out.println("Today's date plus 15 months: " + myDate.plusMonths(15));
         System.out.println("Today's date minus 5 months: " + myDate.minusMonths(5));
         System.out.println("ISO Date Time format: " + sDate);
+        System.out.println("BASIC_ISO_DATE format: " + lDate);
+        System.out.println("FormatStyle.MEDIUM: " + mediumDate);
+        System.out.println("FormatStyle.SHORT: " + shortDate);
     }
 }
