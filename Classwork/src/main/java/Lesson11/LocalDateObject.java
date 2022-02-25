@@ -8,6 +8,7 @@ package Lesson11;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.chrono.JapaneseDate;
 
 
 /**
@@ -19,9 +20,11 @@ public class LocalDateObject {
         LocalDate myDate = LocalDate.now();
         LocalDateTime myDateTime = LocalDateTime.now();
         LocalTime myTime = LocalTime.now();
+        JapaneseDate jdate = JapaneseDate.from(myDate);
         
         System.out.println("Today's Date: " + myDate);
-        System.out.println("Today's Date & Time: " +myDateTime);
+        System.out.println("Today's Date & Time: " + myDateTime);
         System.out.println("Today's Time: " + myTime);
+        System.out.println("Japanese Date: " + jdate);
     }
 }
