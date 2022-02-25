@@ -7,6 +7,7 @@ package Lesson11;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 
 /**
@@ -17,8 +18,10 @@ public class LocalDateObject {
     public static void main(String[] args) {
         LocalDate myDate = LocalDate.now();
         LocalDateTime myDateTime = LocalDateTime.now();
+        LocalTime myTime = LocalTime.now();
         
         System.out.println("Today's Date: " + myDate);
         System.out.println("Today's Date & Time: " +myDateTime);
+        System.out.println("Today's Time: " + myTime);
     }
 }
