@@ -12,7 +12,7 @@ package Lesson11;
 public class ContinueKeyword {
     public static void main(String[] args) {
         for(int i = 0; i < 50; i++){
-            if((1 % 2) == 0){
+            if((i % 2) != 0){
                 continue;
             }
             System.out.println("i: " + i);
