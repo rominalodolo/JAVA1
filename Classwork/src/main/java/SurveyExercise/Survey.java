@@ -11,13 +11,15 @@ package SurveyExercise;
  */
 public class Survey {
     public static void main(String[] args) {
-        userAnswers user01 = new userAnswers (01, "Sallywalker@iggy.com", "Sally Walker", 'F', "Street Performer");
-        userAnswers user02 = new userAnswers (02, "Saidthesky@universalStudios.com", "Trevor Christensen", 'M', "Producer");
-        userAnswers user03 = new userAnswers (03, "Popculture@musicawards.co.za", "Trever Music", 'M', "Record Lable");
-
+        UserAnswers user01 = new UserAnswers (01, "Sallywalker@iggy.com", "Sally Walker", 'F', "Street Performer");
+        UserAnswers user02 = new UserAnswers (02, "Saidthesky@universalStudios.com", "Trevor Christensen", 'M', "Producer");
+        UserAnswers user03 = new UserAnswers (03, "Popculture@musicawards.co.za", "Trever Music", 'M', "Record Lable");
+        UserAnswers user04 = new UserAnswers (04, "HappyDay@singlesclubmail.com", "Hector Steve", 'M');
+        
         System.out.println(user01.print());
         System.out.println(user02.print());
         System.out.println(user03.print());
+        System.out.println(user04.print());
         
     }
 }

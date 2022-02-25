@@ -17,14 +17,22 @@ public class UserAnswers {
     private boolean gender;
     private String occupation;
 
-    public UserAnswers(int userID, String email, String fullName, boolean gender, String occupation) {
+    public UserAnswers(int userID, String email, String fullName, char gender, String occupation) {
         this.userID = userID;
         this.email = email;
         this.fullName = fullName;
-        this.gender = gender;
+        setGender(gender);
         this.occupation = occupation;
     }
 
+    public UserAnswers(int userID, String email, String fullName, char gender) {
+        this.userID = userID;
+        this.email = email;
+        this.fullName = fullName;
+        setGender(gender);
+    }
+
+    
     public int getUserID() {
         return userID;
     }
@@ -70,10 +78,10 @@ public class UserAnswers {
     }
 
     public String print() {
-        return "User ID Number: " + userID + \n +
-               "User Email: " + email + \n + 
-               "User Name and Surname: " + fullName + \n  + 
-               "Gender M or F: " + gender + \n  + 
-               "What is your Occupation: " + occupation + \n;
+        return "User ID: " + userID + "\n" +
+               "User Email: " + email + "\n" + 
+               "User Name and Surname: " + fullName + "\n" + 
+               "Gender F: " + gender + "\n"  + 
+               "What is your Occupation: " + occupation + "\n";
     }
 }
