@@ -11,11 +11,11 @@ package Lesson10;
  */
 public class Employees {
     
-    public String name1 = "Fred Smith";
-    public String name2 = "Sam Smith";
+    public String name1 = new String("Fred Smith");
+    public String name2 = new String("Fred Smith");
     
     public void areNamesEqual() {
-        if (name1.equals(name2)) {
+        if (name1 == name2) {
             System.out.println("Same same.");
         }
         else {

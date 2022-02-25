@@ -10,5 +10,9 @@ package Lesson10;
  * @author rominalodolo
  */
 public class Equality {
-    
+    public static void main(String[] args) {
+        Employees emp = new Employees();
+        emp.areNamesEqual();
+                
+    }
 }
