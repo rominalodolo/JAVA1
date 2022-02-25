@@ -188,3 +188,7 @@ Encapsulation:
 - (OO) Encapsulation encourages good OBJECT-ORIENTATED design.
 
 Void type methods can have return statements but they can't return any values. 
+
+
+Operators:
+If you compare two objects together - DON'T use operators rather use methods. Because of the way it is stored in memory - rather use `equals` method than `==`
