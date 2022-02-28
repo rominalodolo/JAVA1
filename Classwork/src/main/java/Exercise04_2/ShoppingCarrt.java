@@ -3,26 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Exercise04_1;
+package Exercise04_2;
 
 /**
  *
  * @author rominalodolo
  */
-public class ShoppingCart {
+public class ShoppingCarrt {
 
     public static void main(String[] args) {
-//        Declare and initialize 2 String variables: custName and itemDesc
+
         String custName = "Mary Smith";
         String itemDesc = "Shirt";
         String message;
 
-//     Assign the message variable with a concatenation of the custName and itemDesc.  
-//     Include a String literal that results in a complete sentence.  
-//     (example: "Mary Smith wants to purchase a Shirt")
         message = custName + " wants to purchase a " + itemDesc;
 
-//        Print the message to the System output.
         System.out.println(message);
     }
 }
