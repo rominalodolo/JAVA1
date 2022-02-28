@@ -35,5 +35,11 @@ public class Engineering extends Employee {
         this.yearsOfExperience = yearsOfExperience;
     }
 
+    @Override
+    public void print() {
+    super.print();
+            System.out.println("Full stack: " + isFullStack());
+            System.out.println("Years of Experience: " + isYearsOfExperience());
+    }
 }
 
