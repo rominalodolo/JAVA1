@@ -18,8 +18,9 @@ public class ShoppingCart {
 
         dressCart01.print();
         System.out.println("\n");
-        if ( instanceof )
-        ((Skirts)skirtCart02).getWaistSize();
+        if (skirtCart02 instanceof Skirts){
+            System.out.println("Waist Size: " + ((Skirts)skirtCart02).getWaistSize());
+        }
         System.out.println("\n");
         shoesCart03.print();
     }
