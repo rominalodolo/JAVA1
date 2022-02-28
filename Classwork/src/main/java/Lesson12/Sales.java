@@ -9,7 +9,6 @@ package Lesson12;
  *
  * @author rominalodolo
  */
-public abstract class EmploymentStatus {
-    public abstract void getEmployeeStatus(boolean FullTime);
-            
+public class Sales {
+    
 }
