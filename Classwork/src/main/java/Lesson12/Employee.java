@@ -15,7 +15,7 @@ public class Employee {
         private int empID;
         private String address;
         private String title;
-        private Double annualIncome;
+        private double annualIncome;
 
     public Employee(String firstName, String lastName, int empID, String address, String title, Double annualIncome) {
         this.firstName = firstName;

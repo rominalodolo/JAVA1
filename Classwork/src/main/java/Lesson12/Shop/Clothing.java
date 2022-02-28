@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lesson12.SHoppingCart;
+package Lesson12.Shop;
 
 /**
  *
  * @author rominalodolo
  */
-public class Shoes {
+public class Clothing {
     
 }
