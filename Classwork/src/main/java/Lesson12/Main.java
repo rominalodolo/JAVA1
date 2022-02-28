@@ -11,8 +11,12 @@ package Lesson12;
  */
 public class Main {
     public static void main(String[] args) {
-        Engineering engEmp01 = New Engineering(true, 6, "Johan", "Kirk", 92, "2 Sunningdale Close, Johannesburg", "Solutions Architect", 81000);
+        Engineering engEmp01 = new Engineering(true, 6, "Johan", "Kirk", 92, "2 Sunningdale Close, Johannesburg", "Solutions Architect", 81000);
+        HumanResource HREmp02 = new HumanResource(true, 2, "Dianne", "Honey", 40, "40 Bird Hill, Yale, Johannesburg", "Trainer", 26000);
         
+        engEmp01.print();
+        System.out.println("\n");
+        HREmp02.print();
     }
     
 }

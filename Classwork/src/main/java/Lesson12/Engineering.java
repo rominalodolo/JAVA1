@@ -13,7 +13,7 @@ public class Engineering extends Employee {
     private boolean fullstack;
     private int yearsOfExperience;
 
-    public Engineering(boolean fullstack, int yearsOfExperience, String firstName, String lastName, int empID, String address, String title, Double annualIncome) {
+    public Engineering(boolean fullstack, int yearsOfExperience, String firstName, String lastName, int empID, String address, String title, double annualIncome) {
         super(firstName, lastName, empID, address, title, annualIncome);
         this.fullstack = fullstack;
         this.yearsOfExperience = yearsOfExperience;
@@ -38,8 +38,8 @@ public class Engineering extends Employee {
     @Override
     public void print() {
     super.print();
-            System.out.println("Full stack: " + isFullStack());
-            System.out.println("Years of Experience: " + isYearsOfExperience());
+            System.out.println("Full stack: " + isFullstack());
+            System.out.println("Years of Experience: " + getYearsOfExperience());
     }
 }
 
