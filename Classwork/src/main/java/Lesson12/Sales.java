@@ -9,6 +9,9 @@ package Lesson12;
  *
  * @author rominalodolo
  */
-public class Sales {
-    
+public class Sales extends EmploymentStatus {
+    @Override
+    public void getEmployeeStatus(boolean FullTime) {
+        System.out.println("Full-Time: " + FullTime);
+    }
 }
