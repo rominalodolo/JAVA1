@@ -9,10 +9,10 @@ package Lesson13;
  *
  * @author rominalodolo
  */
-public class Pants extends Clothing implements Returnabale {
-    
-    @Override
-    public void doReturn(){
-        System.out.println("You may return within a week of purchase date.");
-    }
-}
+//public class Pants extends Clothing implements Returnabale {
+//    
+//    @Override
+//    public void doReturn(){
+//        System.out.println("You may return within a week of purchase date.");
+//    }
+//}
