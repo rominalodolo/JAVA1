@@ -15,10 +15,18 @@ public class ShoppingCarrt {
 
         String custName = "Mary Smith";
         String itemDesc = "Shirt";
+        double price = 41;
+        double tax = 15;
         String message;
+        String totalMessage;
 
-        message = custName + " wants to purchase a " + itemDesc;
-
+        message = custName + " wants to purchase 1 Shirt " + itemDesc;
+        
+//      Calculate total by multiplying price * quantity * tax.
+        totalMessage = "Total cost with tax is " + (price * 1 * tax);
+        
         System.out.println(message);
+        System.out.println(totalMessage);
+        
     }
 }
