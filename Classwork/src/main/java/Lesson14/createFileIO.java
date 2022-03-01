@@ -5,10 +5,20 @@
  */
 package Lesson14;
 
+import java.io.IOException;
+
 /**
  *
  * @author rominalodolo
  */
 public class createFileIO {
-    
+
+    public static void main(String[] args) {
+        TestClass testClass = new TestClass();
+        try {
+            testClass.testCheckedException();
+        } catch (IOException ioe) {
+            System.out.println(ioe);
+        }
+    }
 }

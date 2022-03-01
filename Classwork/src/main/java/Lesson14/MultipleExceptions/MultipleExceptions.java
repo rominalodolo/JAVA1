@@ -5,6 +5,9 @@
  */
 package Lesson14.MultipleExceptions;
 
+import java.io.File;
+import java.io.IOException;
+
 /**
  *
  * @author rominalodolo
@@ -14,10 +17,13 @@ public class MultipleExceptions {
         try{
             createFile();
         } catch (IOException ioe){
+            String errorMessage = ioe.getMessage();
             System.out.println(ioe);
         } catch (IllegalArgumentException iae){
+            String errorMessage = iae.getMessage();
             System.out.println(iae);
         } catch (Exception e){
+            String errorMessage = e.getMessage();
             System.out.println(e);
         }
     }
@@ -27,7 +33,10 @@ public class MultipleExceptions {
         File tempF = testF.createTempFile("te", null, testF);
         System.out.println("Temp filename: " + tempF.getPath());
         int myInt[] = new int[5];
-        myInt[5] = 25
+        myInt[5] = 25;
+        System.out.println(myInt[5]);
+                        
+                       
        
     }
 }
