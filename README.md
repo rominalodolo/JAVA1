@@ -253,3 +253,6 @@ Exceptions:
  You can also create exeptions 
     - An exception is just a class
     `public class MyException extends Exception {}` 
+
+    Exceptions Methods:
+    ![methods](https://user-images.githubusercontent.com/83961643/156133028-7737d0ec-b252-43f4-a229-33a4130600d0.jpeg)
