@@ -240,3 +240,16 @@ Class List: java.awt.List [READ MORE](https://docs.oracle.com/en/java/javase/17/
 
 Lambda Expression: 
 
+Exceptions: 
+    `java.lang.ArrayIndexOutOfBoundsException`
+    - attempt to access a nonexistent array index 
+    
+    `java.lang.ClassCastException`
+    - attempt to cast on object to an illegal type 
+    
+    `java.lang.NullPointerException`
+    -  attempt to use an object reference that has not been instantiated 
+    
+ You can also create exeptions 
+    - An exception is just a class
+    `public class MyException extends Exception {}` 
