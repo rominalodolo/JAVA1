@@ -211,4 +211,32 @@ When to use
 - a single value
 - against fixed known values at compile time 
 
+Inheritence:
+- different to the main class 
+    - extends 
+    - super 
+- overriding 
+    - Same signature 
+    - Different name 
+    - `@Override` is an annotation which can't access `private`
+
+Subclass vs superclass 
+
+Polymorphism:
+    - casting only from super to sub
+    - instance of works with sub to super 
+    
+Abstract class 
+- can't be instanciated 
+- no code block 
+
+Override `toString` method of the object class 
+Class String: java.lang.String [READ MORE](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html)
+Class Object: java.lang.Object [READ MORE](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html)
+
+Array List:
+Class ArrayList<E>: java.util.ArrayList<E> [READ MORE](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/ArrayList.html)
+Class List: java.awt.List [READ MORE](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/List.html)
+
+Lambda Expression: 
 
