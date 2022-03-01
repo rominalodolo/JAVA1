@@ -257,3 +257,18 @@ Exceptions:
 Exceptions Methods:
 ![methods](https://user-images.githubusercontent.com/83961643/156133028-7737d0ec-b252-43f4-a229-33a4130600d0.jpeg)
 [READ MORE](https://www.tutorialspoint.com/java/java_exceptions.htm)
+
+Types of `Throwable` classes 
+Exceptions are subclasses of Throwable. There are three main types of throwable: 
+- Error 
+    - Unchecked 
+    - Usually unrecoverable external exernal error
+- RuntimeException
+    - Unchecked 
+    - Usually caused by a programing mistake
+- Exception
+    - A recoverable error 
+    - Checked (must be cuaght or thrown) 
+    
+Propagation of exceptions:     
+![propigationeg](https://user-images.githubusercontent.com/83961643/156134126-b9f0800f-e2af-4289-a7a0-65cb322dc730.jpeg)
