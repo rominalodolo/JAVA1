@@ -6,6 +6,7 @@ Lesson11/TwoDimensionalArray.class
 Lesson8/Customer.class
 Lesson12/Shop/Skirts.class
 Lesson12/Shop/ShoppingCart.class
+Lesson14/ExceptionPropagation.class
 Lesson12/Shop/Dress.class
 Lesson13/Skirts.class
 SurveyExercise/UserAnswers.class
@@ -23,6 +24,7 @@ SurveyExercise/Survey.class
 Lesson7/IncrementDecrement.class
 Lesson11/ArgsTest.class
 Lesson13/Dress.class
+Lesson14/Main.class
 Lesson7/Example1.class
 Lesson6/Main.class
 Test1/Q10.class
@@ -33,6 +35,7 @@ Test1/Q5.class
 Lesson9/Shirt.class
 Lesson11/LocalDateObject.class
 Exercise10a/TeranyOperator.class
+Exercise05_1/ShoppingCart.class
 Lesson4/Employee.class
 Lesson3/ShoppingCart.class
 Lesson13/Clothing.class

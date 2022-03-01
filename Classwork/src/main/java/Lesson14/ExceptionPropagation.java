@@ -12,6 +12,7 @@ package Lesson14;
 public class ExceptionPropagation {
     public void doThis() throws Exception{
         doThat();
+        System.out.println("doing this...");
     }
     public void doThat() throws Exception{
         int[] intArray = new int [5];
