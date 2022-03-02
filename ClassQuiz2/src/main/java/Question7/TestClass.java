@@ -10,5 +10,9 @@ package Question7;
  * @author rominalodolo
  */
 public class TestClass {
-    
+    public static void main(String[] args) {
+        try{
+            doTest():
+        }
+    }
 }
