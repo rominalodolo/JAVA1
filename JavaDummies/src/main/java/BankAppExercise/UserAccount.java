@@ -18,7 +18,7 @@ public class UserAccount {
     static NumberFormat cf = NumberFormat.getCurrencyInstance();
     public static void main(String[] args) {
         
-        String UserInput = ("Y") ("N");
+//        String UserInput = ("Y") ("N");
         int start = 1000;
         int withdrawl = UserWithdrawlAmount;
         int add = UserAddAmount;
@@ -26,16 +26,16 @@ public class UserAccount {
 
         System.out.println("You currently have " + start + " in your account.");
         
-        
-        if (add.equalsIgnoreCase("y")) { 
-        System.out.println("Do you wish to add funds? Y/n");
-        String add = sc.next();
-        
+//        
+//        if (add.equalsIgnoreCase("y")) { 
+//        System.out.println("Do you wish to add funds? Y/n");
+//        String add = sc.next();
+//        
         
         System.out.println("How much would you like to deposit?");
-        else {
-                
-                }
+//        else {
+//                
+//                }
         
         System.out.println("Do you wish to withdraw funds? Y/n");
         
@@ -49,3 +49,6 @@ public class UserAccount {
         System.out.println("Total in " + UserAccount + ": " + cf.format(totalFunds) );
     }
 }
+
+// not object oriented programming because everything is in the main class 
+// gets messy
