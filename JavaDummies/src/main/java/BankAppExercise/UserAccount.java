@@ -12,43 +12,43 @@ import java.util.Scanner;
  *
  * @author rominalodolo
  */
-public class UserAccount {
-    
-    static Scanner sc = new Scanner(System.in);
-    static NumberFormat cf = NumberFormat.getCurrencyInstance();
-    public static void main(String[] args) {
-        
-//        String UserInput = ("Y") ("N");
-        int start = 1000;
-        int withdrawl = UserWithdrawlAmount;
-        int add = UserAddAmount;
-        int totalFunds = ( start - withdrawl ) | ( start + add );
-
-        System.out.println("You currently have " + start + " in your account.");
-        
+//public class UserAccount {
+//    
+//    static Scanner sc = new Scanner(System.in);
+//    static NumberFormat cf = NumberFormat.getCurrencyInstance();
+//    public static void main(String[] args) {
 //        
-//        if (add.equalsIgnoreCase("y")) { 
-//        System.out.println("Do you wish to add funds? Y/n");
-//        String add = sc.next();
+////        String UserInput = ("Y") ("N");
+//        int start = 1000;
+////        int withdrawl = UserWithdrawlAmount;
+////        int add = UserAddAmount;
+//        int totalFunds = ( start - withdrawl ) | ( start + add );
+//
+//        System.out.println("You currently have " + start + " in your account.");
 //        
-        
-        System.out.println("How much would you like to deposit?");
-//        else {
-//                
-//                }
-        
-        System.out.println("Do you wish to withdraw funds? Y/n");
-        
-        
-        System.out.println("How much would you like to withdraw?");
-        
-        
-        System.out.println("Thank you for banking with us, Have a lovely day!");
-        
-        
-        System.out.println("Total in " + UserAccount + ": " + cf.format(totalFunds) );
-    }
-}
+////        
+////        if (add.equalsIgnoreCase("y")) { 
+////        System.out.println("Do you wish to add funds? Y/n");
+////        String add = sc.next();
+////        
+//        
+//        System.out.println("How much would you like to deposit?");
+////        else {
+////                
+////                }
+//        
+//        System.out.println("Do you wish to withdraw funds? Y/n");
+//        
+//        
+//        System.out.println("How much would you like to withdraw?");
+//        
+//        
+//        System.out.println("Thank you for banking with us, Have a lovely day!");
+//        
+//        
+//        System.out.println("Total in " + UserAccount + ": " + cf.format(totalFunds) );
+//    }
+//}
 
 // not object oriented programming because everything is in the main class 
 // gets messy
