@@ -10,11 +10,13 @@ package Question1;
  * @author rominalodolo
  */
 public class objective1 {
+//    a. import static java.lang.Integer.*; 
+//    b. static import java.lang.System.out; 
+//    c. static import Integer.MAX_VALUE; 
+//    d. import static java.lang.System.*; 
+//    e. static import java.lang.System.*;
     
-    public class StaticImports{
-        
-        public StaticImports(){
-            out.println(MAX_VALUE);
-        }
+    public StaticImports() {
+    out.println(MAX_VALUE);
     }
 }
