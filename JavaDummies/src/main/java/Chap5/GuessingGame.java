@@ -16,6 +16,7 @@ public class GuessingGame {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
+        
         boolean keepPlaying = true;
         System.out.println("Let's play a guessing game!");
         while (keepPlaying) {
@@ -39,9 +40,9 @@ public class GuessingGame {
             } while (!validInput);
             // Check the guess
             if (guess == number) {
-                System.out.println("You�re right!");
+                System.out.println("You're right!");
             } else {
-                System.out.println("You�re wrong! "
+                System.out.println("You're wrong! "
                         + "The number was " + number);
             }
             // Play again?
