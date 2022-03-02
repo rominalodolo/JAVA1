@@ -6,13 +6,14 @@
 package Lesson14;
 
 import java.io.File;
+import java.io.IOException;
 
 /**
  *
  * @author rominalodolo
  */
 public class TestClass {
-    public void testCheckedException() throws Exception{
+    public void testCheckedException() throws IOException{
         File testFile = new File("testFile.txt");
         testFile.createNewFile();
             System.out.println("testFile exists: " + testFile.exists());

@@ -28,7 +28,7 @@ public class MultipleExceptions {
         }
     }
         
-    public void createFile() throws Exception{
+    public static void createFile() throws Exception{
         File testF = new File("textFile.txt");
         File tempF = testF.createTempFile("te", null, testF);
         System.out.println("Temp filename: " + tempF.getPath());

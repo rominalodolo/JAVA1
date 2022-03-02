@@ -17,7 +17,7 @@ public class createFileIO {
         TestClass testClass = new TestClass();
         try {
             testClass.testCheckedException();
-        } catch (IOException ioe) {
+        }catch(IOException ioe) {
             System.out.println(ioe);
         }
     }
