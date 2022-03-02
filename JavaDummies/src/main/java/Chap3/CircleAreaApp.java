@@ -22,3 +22,4 @@ public class CircleAreaApp {
         System.out.println("The area is " + area);
     }
 }
+
