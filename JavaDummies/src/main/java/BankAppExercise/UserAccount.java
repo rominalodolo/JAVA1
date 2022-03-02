@@ -27,7 +27,15 @@ public class UserAccount {
         System.out.println("Do you wish to add funds? Y/n");
         
         
+        System.out.println("How much would you like to deposit?");
+
+        
         System.out.println("Do you wish to withdraw funds? Y/n");
+        
+        
+        System.out.println("How much would you like to withdraw?");
+        
+        
         System.out.println("Thank you for banking with us, Have a lovely day!");
         
         
