@@ -5,18 +5,19 @@
  */
 package Question1;
 
+import static java.lang.System.*; // D 
+
+//    a. import static java.lang.Integer.*; 
+//    b. static import java.lang.System.out; 
+//    c. static import Integer.MAX_VALUE; 
+//    e. static import java.lang.System.*;
 /**
  *
  * @author rominalodolo
  */
-public class objective1 {
-//    a. import static java.lang.Integer.*; 
-//    b. static import java.lang.System.out; 
-//    c. static import Integer.MAX_VALUE; 
-//    d. import static java.lang.System.*; 
-//    e. static import java.lang.System.*;
-    
-    public StaticImports() {
-    out.println(MAX_VALUE);
+public class StaticImport {
+
+    public StaticImport(){
+        out.println("Hello World");
     }
 }

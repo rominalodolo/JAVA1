@@ -5,6 +5,8 @@
  */
 package Chap6;
 
+import java.util.Scanner;
+
 /**
  *
  * @author rominalodolo

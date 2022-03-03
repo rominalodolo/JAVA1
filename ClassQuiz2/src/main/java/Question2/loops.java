@@ -9,19 +9,21 @@ package Question2;
  *
  * @author rominalodolo
  */
-public class loops {
-    private int J;
+public class JustLooping {
+
+    private int j;
     void showJ(){
-        while(j<=5){
+        while(j <= 5){
             for(int J=1; J <= 5;){
-                System.out.println(J + " ");
+                System.out.print(J + " ");
                 J++;
             }
-            J++;
+            j++;
         }
     }
+    
     public static void main(String[] args){
-        new loops().showJ();
+        new JustLooping().showJ();
     }
 }
 
