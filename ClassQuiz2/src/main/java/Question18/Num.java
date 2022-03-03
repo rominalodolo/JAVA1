@@ -22,3 +22,5 @@ public class Num {
         System.out.println(s);
     }
 }
+
+// Answer: 24
