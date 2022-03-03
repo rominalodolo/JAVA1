@@ -21,18 +21,15 @@ public class OverloadingTest {
     void ml (String x){
         System.out.println("ml String");
     }
-}
-
-public class TestClass {
     public static void main(String[] args) {
         OverloadingTest ot = new OverloadingTest();
         ot.ml(1.0);
     }
+    
 }
 
-//What will be the output? 
-//a. It will fail to compile. 
-//b. m1 int 
-//c. m1 double 
-//d. m1 String
+
+   
+
+
 

@@ -12,7 +12,20 @@ package Question7;
 public class TestClass {
     public static void main(String[] args) {
         try{
-            doTest():
+            doTest();
+        }
+        catch(MyException me){
+            System.out.println(me);
         }
     }
+    static void doTest() throws MyException{
+        int[] array = new int[10];
+        array[10] = 1000;
+        doAnotherTest();
+    }
+    
+    static void doAnotherTest() throws MyException{
+        throw new MyException("Exception from doAnotherTest");
+    }
+    
 }
