@@ -14,6 +14,6 @@ public class TestClass {
         int i = 0;
         int[] iA = {10, 20};
         iA[i] = i = 30;
-        System.out.println("" + iA[ 0 ] + " " iA[ 1 ] + "  " +i) ;
+        System.out.println("" + iA[ 0 ] + " " + iA[ 1 ] + "  " +i);
     }
 }

@@ -12,5 +12,12 @@ package Question8;
 public int transformNumber (int n){
     int radix = 2;
         int output = 0;
-        output
+        output += radix*n;
+        radix = output/radix;
+        if(outout<14){
+return output;
+}
+else{
+return output/2;
+}
 }
