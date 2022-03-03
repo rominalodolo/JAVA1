@@ -9,15 +9,24 @@ package Question8;
  *
  * @author rominalodolo
  */
-public int transformNumber (int n){
-    int radix = 2;
-        int output = 0;
-        output += radix*n;
-        radix = output/radix;
-        if(outout<14){
-return output;
-}
-else{
-return output/2;
-}
-}
+//public class transformNumber {
+//
+//    public static void main(String[] args) {
+//
+//    static int transformNumber(int n) {
+//        int radix = 2;
+//        int output = 0;
+//        output += radix * n;
+//        radix = output / radix;
+//        if (output < 14) {
+//            return output;
+//        } else {
+//            output = output * radix / 2;
+//            return output;
+//        }
+////        else {
+////        return output/2;
+////        }
+////          Compile Error
+//    }
+//}
