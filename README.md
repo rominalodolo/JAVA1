@@ -266,3 +266,17 @@ Exceptions are subclasses of Throwable. There are three main types of throwable:
 Propagation of exceptions: 
 "a process in which the exception is being dropped from to the top to the bottom of the stack. If not caught once, the exception again drops down to the previous method and so on until it gets caught or until it reach the very bottom of the call stack." [READ MORE](https://www.geeksforgeeks.org/exception-propagation-java/)
 ![Data](https://user-images.githubusercontent.com/83961643/159454875-e66dc920-b6e7-40b5-84ac-58cc85e6c667.jpg)
+    
+    
+    
+## Overriding vs Overloading: 
+![overload vs overriding part1 ](https://user-images.githubusercontent.com/83961643/159474432-7790110d-88b5-48a9-b0b8-2ac4cc120e53.png)
+![overload vs overriding part2](https://user-images.githubusercontent.com/83961643/159474449-4b13cac3-c36c-4102-9a53-c0a35f395bde.png)
+![example overrride](https://user-images.githubusercontent.com/83961643/159474456-8b7a48cc-c611-4385-b0e8-6844862257b6.png)
+    
+[More on the different of Override vs Overload](https://medium.com/@madhucynixit/difference-between-method-overloading-and-method-overriding-in-java-d3b71aa79e38)
+[More Examples](https://www.journaldev.com/32182/overriding-vs-overloading-in-java)
+[More explination video](https://www.youtube.com/watch?v=5Je1FYDI5ws)
+    
+    
+Last edit April 2022
