@@ -192,17 +192,11 @@ Void type methods can have return statements but they can't return any values.
 Operators:
 If you compare two objects together - DON'T use operators rather use methods. Because of the way it is stored in memory - rather use `equals` method than `==`
 
-increment and decrement operators:
-![incrementanddecrementoperators](https://user-images.githubusercontent.com/83961643/155676056-357470b4-51a3-4bda-9372-876c59f5e0bd.jpeg)
+![Operators ](https://user-images.githubusercontent.com/83961643/159463652-46c7bb3a-ffc6-450b-a998-594ef1b81ebf.png)
+![Operators (2)](https://user-images.githubusercontent.com/83961643/159463677-fe1d5df5-662d-4872-a1b0-e96a6c99211b.png)
+![Operators (3)](https://user-images.githubusercontent.com/83961643/159463683-3aeffad3-9ab3-4be0-bd76-7825b83e1e8c.png)
+![Operators](https://user-images.githubusercontent.com/83961643/159463692-758572e8-bbd0-430e-9ab3-e2cd617151b0.png)
 
-conditional operators:
-![conditionaloperators](https://user-images.githubusercontent.com/83961643/155676075-e26b1123-9e24-41a0-aef9-fed550774b36.jpeg)
-
-relational Operators:
-![relationalOperators](https://user-images.githubusercontent.com/83961643/155676086-0da4a8d0-ab3b-4626-acc1-c99af0dc2eaf.jpeg)
-
-terany conditional operators:
-![teranyconditionalop](https://user-images.githubusercontent.com/83961643/155676093-9f1d4e97-8388-45c8-90f5-ae7eb7dc0ea9.jpeg)
 
 Switch Constucts:
 When to use
