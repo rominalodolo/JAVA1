@@ -1,5 +1,7 @@
 ## JAVA Class work and projects 
 
+ECMAScript is the scripting language that forms the basis of JavaScript. ECMAScript standardized by the ECMA International standards organization in the ECMA-262 and ECMA-402 specifications. - [mnd web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources)
+
 Checking for java on my computer: 
 ![1](https://user-images.githubusercontent.com/83961643/154942500-6b5cc99f-a5b9-4e30-97e5-5dfe53b06fdb.jpeg)
 
