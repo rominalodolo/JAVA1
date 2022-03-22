@@ -171,8 +171,8 @@ JAVA METHOD OVERLOADING: A class can contain multiple methods that have the same
 
 ![overload vs overriding part1 ](https://user-images.githubusercontent.com/83961643/159474432-7790110d-88b5-48a9-b0b8-2ac4cc120e53.png)
 ![overload vs overriding part2](https://user-images.githubusercontent.com/83961643/159474449-4b13cac3-c36c-4102-9a53-c0a35f395bde.png)
-![example overrride](https://user-images.githubusercontent.com/83961643/159474456-8b7a48cc-c611-4385-b0e8-6844862257b6.png)
-    
+![Data-2](https://user-images.githubusercontent.com/83961643/159476175-534c1d39-edaf-45c5-977c-04779cf9acb6.png)
+ 
 [More on the difference of Override vs Overload](https://medium.com/@madhucynixit/difference-between-method-overloading-and-method-overriding-in-java-d3b71aa79e38)
     
 [More Examples](https://www.journaldev.com/32182/overriding-vs-overloading-in-java)
