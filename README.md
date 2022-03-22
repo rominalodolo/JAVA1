@@ -274,4 +274,4 @@ Exceptions are subclasses of Throwable. There are three main types of throwable:
     
 Propagation of exceptions: 
 "a process in which the exception is being dropped from to the top to the bottom of the stack. If not caught once, the exception again drops down to the previous method and so on until it gets caught or until it reach the very bottom of the call stack." [READ MORE](https://www.geeksforgeeks.org/exception-propagation-java/)
-![propigationeg](https://user-images.githubusercontent.com/83961643/156134126-b9f0800f-e2af-4289-a7a0-65cb322dc730.jpeg)
+![Data](https://user-images.githubusercontent.com/83961643/159454875-e66dc920-b6e7-40b5-84ac-58cc85e6c667.jpg)
