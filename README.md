@@ -193,9 +193,9 @@ Operators:
 If you compare two objects together - DON'T use operators rather use methods. Because of the way it is stored in memory - rather use `equals` method than `==`
 
 ![Operators ](https://user-images.githubusercontent.com/83961643/159463652-46c7bb3a-ffc6-450b-a998-594ef1b81ebf.png)
+![Operators](https://user-images.githubusercontent.com/83961643/159463692-758572e8-bbd0-430e-9ab3-e2cd617151b0.png)
 ![Operators (2)](https://user-images.githubusercontent.com/83961643/159463677-fe1d5df5-662d-4872-a1b0-e96a6c99211b.png)
 ![Operators (3)](https://user-images.githubusercontent.com/83961643/159463683-3aeffad3-9ab3-4be0-bd76-7825b83e1e8c.png)
-![Operators](https://user-images.githubusercontent.com/83961643/159463692-758572e8-bbd0-430e-9ab3-e2cd617151b0.png)
 
 
 Switch Constucts:
