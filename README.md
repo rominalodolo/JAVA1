@@ -274,9 +274,11 @@ Propagation of exceptions:
 ![overload vs overriding part2](https://user-images.githubusercontent.com/83961643/159474449-4b13cac3-c36c-4102-9a53-c0a35f395bde.png)
 ![example overrride](https://user-images.githubusercontent.com/83961643/159474456-8b7a48cc-c611-4385-b0e8-6844862257b6.png)
     
-[More on the different of Override vs Overload](https://medium.com/@madhucynixit/difference-between-method-overloading-and-method-overriding-in-java-d3b71aa79e38)
+[More on the difference of Override vs Overload](https://medium.com/@madhucynixit/difference-between-method-overloading-and-method-overriding-in-java-d3b71aa79e38)
+    
 [More Examples](https://www.journaldev.com/32182/overriding-vs-overloading-in-java)
-[More explination video](https://www.youtube.com/watch?v=5Je1FYDI5ws)
+    
+[Explination video](https://www.youtube.com/watch?v=5Je1FYDI5ws)
     
     
 Last edit April 2022
