@@ -278,7 +278,18 @@ Propagation of exceptions:
 ![Data](https://user-images.githubusercontent.com/83961643/159454875-e66dc920-b6e7-40b5-84ac-58cc85e6c667.jpg)
     
     
+## JAVAFX
+"JavaFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java. It is a collaborative effort by many individuals and companies with the goal of producing a modern, efficient, and fully featured toolkit for developing rich client applications." [Official JavaFX](https://openjfx.io)
     
-   
+- Allows you to use CSS. 
+- Visual effects: You can add a wide variety of visual effects to your user interface elements, including shadows, reflections, blurs, lighting, and perspective effects.
+- Animation: You can specify animation effects that apply transitions gradually over time.
+- 3-D objects: You can draw three-dimensional objects such as cubes, cylinders, spheres, and more complex shapes.
+- Touch interface: JavaFX can handle touchscreen devices, such as smartphones and tablet computers with ease.
+
+[Getting started: How to install](https://openjfx.io/openjfx-docs/#install-javafx)
+    
+    
+[JavaFX Docs](https://fxdocs.github.io/docs/html5/)
     
 Last edit April 2022
