@@ -292,4 +292,9 @@ Propagation of exceptions:
     
 [JavaFX Docs](https://fxdocs.github.io/docs/html5/)
     
+[JavaFX and NetBeans 11.2](https://cs.smu.ca/~myoung/csci1228/Notes/InstallingJavaFX.html)
+[More on downloads](https://cs.smu.ca/~myoung/csci1228/Notes/InstallingJavaFX.html)
+[Where to download your files from](https://www.oracle.com/java/technologies/downloads/#java11-mac)
+    [Open JDK](https://wiki.openjdk.java.net/display/OpenJFX)
+    
 Last edit April 2022
