@@ -1,4 +1,4 @@
-module com.example.helloworldfx1 {
+module com.example.HelloWorldFx1 {
     requires javafx.controls;
     requires javafx.fxml;
 
