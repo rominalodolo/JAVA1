@@ -297,4 +297,15 @@ Propagation of exceptions:
 [Where to download your files from](https://www.oracle.com/java/technologies/downloads/#java11-mac)
     [Open JDK](https://wiki.openjdk.java.net/display/OpenJFX)
     
+
+When trying to use Netbeans for the JavaFx projects (in Chapter 6 of the Dummies book) I came across many issues that I couldn't fix. I'm still unsure of why it isn't working. However, I had the 2022 version of INTELLIJ but that ended up giving me issues aswell until I deleted the program safely off my Mac laptop then reinstalled it as a 2021 version. The issues were with the module and the local path but everything seemed as it should work. I did find out how to add the dependencies to the project in INTELLIJ. 
+    I am using Java 11 SDK - Because the dependancies have been unbunded I have to make sure I am adding them to the global libraries in INTELLIJ. To do this, Right click on the project folder and go to module settings to global library. 
+![modulesetting](https://user-images.githubusercontent.com/83961643/160570508-2061033b-84e8-40d6-8e7d-be950e820180.jpeg)
+When you have set the path for your JavaFX dependencies then you can edit configurations. 
+![GlobalLibrary](https://user-images.githubusercontent.com/83961643/160572013-3f7b4934-2440-49f4-8f58-4c39014c5e4f.jpeg)
+![editconfig](https://user-images.githubusercontent.com/83961643/160572725-b5a9b19e-f551-4940-9990-95ecf7e7030a.jpeg)
+    To edit configurations click `Run` and scroll to `Edit Configurations...` Next click the ADD `+` button and choose `Application`
+
+    
+    
 Last edit April 2022
