@@ -317,6 +317,6 @@ Then Run your program to see if it works. A pop up `Hello!` box should pop up as
 To edit the program in scene builder right click on the fxml file in the src folder
     ![scenebuilderfxml](https://user-images.githubusercontent.com/83961643/161069168-9d3a5244-f317-413f-8f55-ee9de25411e4.jpeg)
 
-    (Download Scene Builder Here)[https://gluonhq.com/products/scene-builder/]
+(Download Scene Builder Here)[https://gluonhq.com/products/scene-builder/]
     
 Last edit April 2022
