@@ -314,6 +314,8 @@ Then add the project name to the `Name: ` secion. Use the `com.example..` for th
 Then Run your program to see if it works. A pop up `Hello!` box should pop up as seen in the image below. 
 ![RunProgram](https://user-images.githubusercontent.com/83961643/160576889-10674be9-efbb-4ea4-bc00-41a4ed4af4f6.jpeg)
 
+To edit the program in scene builder right click on the fxml file in the src folder
+    ![scenebuilderfxml](https://user-images.githubusercontent.com/83961643/161069168-9d3a5244-f317-413f-8f55-ee9de25411e4.jpeg)
 
     
 Last edit April 2022
