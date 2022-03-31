@@ -320,6 +320,8 @@ To edit the program in scene builder right click on the fxml file in the src fol
 [Download Scene Builder Here](https://gluonhq.com/products/scene-builder/)
     
 To set up Scene Builder In INTELLIJ:
-Go to `File` then `Settings`     
+Go to `IntelliJ IDEA` then `Preferences` a box should appear as seen in the image below.
+  ![preferences](https://user-images.githubusercontent.com/83961643/161072871-3cedd905-2b11-4b61-a001-e8638e7e4a88.jpeg)
+
     
 Last edit April 2022
