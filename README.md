@@ -324,9 +324,13 @@ Go to `IntelliJ IDEA` then `Preferences` a box should appear as seen in the imag
   ![preferences](https://user-images.githubusercontent.com/83961643/161072871-3cedd905-2b11-4b61-a001-e8638e7e4a88.jpeg)
 Next, Select `Languages & Frameworks` Click on  `JavaFX`
     ![javafx](https://user-images.githubusercontent.com/83961643/161073516-056a13da-892f-4d6f-b373-98f08f78cd39.jpeg)
-Then set the path for scene builder by going into your applications - finding scene builder and then finding the file which can be executed on your system. ![executable](https://user-images.githubusercontent.com/83961643/161074529-96f51e13-06b1-4acc-91fb-a909173e4197.jpeg)
+Then set the path for scene builder by going into your applications - finding scene builder and selecting it for your path. You do not need to find the executable file as seen in the image below, all you need to choose is the appication itself. 
+![executable](https://user-images.githubusercontent.com/83961643/161075285-79ef0e66-5486-4a97-b5aa-088cd531ebcf.jpeg)
+Like this: 
+    ![app](https://user-images.githubusercontent.com/83961643/161075558-d9add588-1de6-4430-b082-a115979881e4.jpeg)
+Then you can run your FXML file in scene builder and it should open up like this (see below):
+    ![working](https://user-images.githubusercontent.com/83961643/161075820-0090aaae-ca01-4c97-a225-09fdbf6d72d8.jpeg)
 
-    
     
     
 Last edit April 2022
