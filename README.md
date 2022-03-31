@@ -322,6 +322,11 @@ To edit the program in scene builder right click on the fxml file in the src fol
 To set up Scene Builder In INTELLIJ:
 Go to `IntelliJ IDEA` then `Preferences` a box should appear as seen in the image below.
   ![preferences](https://user-images.githubusercontent.com/83961643/161072871-3cedd905-2b11-4b61-a001-e8638e7e4a88.jpeg)
+Next, Select `Languages & Frameworks` Click on  `JavaFX`
+    ![javafx](https://user-images.githubusercontent.com/83961643/161073516-056a13da-892f-4d6f-b373-98f08f78cd39.jpeg)
+Then set the path for scene builder by going into your applications - finding scene builder and then finding the file which can be executed on your system. ![executable](https://user-images.githubusercontent.com/83961643/161074529-96f51e13-06b1-4acc-91fb-a909173e4197.jpeg)
 
+    
+    
     
 Last edit April 2022
