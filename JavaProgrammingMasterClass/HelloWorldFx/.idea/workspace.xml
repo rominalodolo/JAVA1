@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69bfd469-1cd0-4c20-898d-5662ce8d6d97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../JavaDummiesJavaFx/ClickMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Listing11ClickMe/Listing11ClickMe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorldFx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
