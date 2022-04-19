@@ -1,4 +1,6 @@
-public class Q6 {
+import static java.lang.System.gc;
+
+public class Rabbit {
     public static void main(String[] args) {
         Rabbit one = new Rabbit();
         Rabbit two = new Rabbit();
@@ -8,6 +10,6 @@ public class Q6 {
         three = null;
         two = null;
         two = new Rabbit();
-        System.gc();
+        gc();
     }
 }
