@@ -332,5 +332,8 @@ Then you can run your FXML file in scene builder and it should open up like this
     ![working](https://user-images.githubusercontent.com/83961643/161075820-0090aaae-ca01-4c97-a225-09fdbf6d72d8.jpeg)
 
     
+ 
+# [DOT](https://www.geeksforgeeks.org/method-chaining-in-java-with-examples/)
+Method Chaining is the practice of calling different methods in a single line instead of calling other methods with the same object reference separately. Under this procedure, we have to write the object reference once and then call the methods by separating them with a (dot.).
     
 Last edit April 2022
