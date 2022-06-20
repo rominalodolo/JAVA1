@@ -1,6 +1,6 @@
 # Head First Java 
 >> by Kathy Sierra & Bert Bates 
->> O'Reilly
+> O'Reilly
 
 
 ## This section is focused on Chapter 17 of this book - Package, Jars and Deployment: Release Your Code 
