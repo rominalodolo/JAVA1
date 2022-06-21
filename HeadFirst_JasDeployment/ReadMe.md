@@ -49,6 +49,15 @@ _" The key is a combination of directory structure organization and the ```-d```
 `` %java -jar app1.jar `` 
 
 ### Put your classes in packages
+Package structure of the Java API for:
+> java.text.NumberFormat
+> java.util.ArrayList
+> java.awt.FlowLayout
+> java.awt.event.ActionEvent
+> java.net.Socket
+
+![hierachy](https://user-images.githubusercontent.com/83961643/174780986-67b0e53b-edc5-4535-9724-e434be57e502.jpeg)
+
 
 ### Preventing package name conflicts 
 
