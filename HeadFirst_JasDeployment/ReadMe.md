@@ -120,7 +120,14 @@ To compile all the .java files in the com.headfirstjava package, use: `` %javac 
 
 ### Manifest file? 
 1. List the contents of a JAR
+
+`% jar -tf packEx.jar`
+
 2. Extract the contents of a JAR (i.e. unjar)
+
+`% cd Skyler`
+
+`% jar -xf packEx.jar`
 
 
 ### Java Web Start (JWS)
