@@ -16,7 +16,7 @@ now to...
 
 _" A java program is a bunch of classes. That's the output of your development. The real question is what to do with those classes when you're done. "_
 
-### Deployment options: 
+## Deployment options: 
 - Local: 
 The entire application runs on the end-user’s computer, as a stand-alone,probably GUI, program, deployed as an executable JAR.
 
@@ -29,6 +29,25 @@ The entire Java application runs on a server system, with the client accessing t
 ### Separate source code and class files
 _" The key is a combination of directory structure organization and the ```-d``` compiler option. "_
 
+
+### Put your java in a JAR 
+
+### Put your classes in packages
+
+### Preventing package name conflicts 
+
+### Compiling & Running packages 
+
+### -d 
+
+### Executable package with JAR 
+
+### Manifest file? 
+
+### Java Web Start 
+
+
+### .jnlp file 
 
 
 ## Summary exercise 
