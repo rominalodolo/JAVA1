@@ -4,12 +4,13 @@
 >> O'Reilly
 
 
-## This section is focused on Chapter 17 of this book - Package, Jars and Deployment: Release Your Code 
+## This section is focused on Chapter 17 of this book - Package, Jars and Deployment 
 
 ## Release Your code 
 - wrote code
 - tested code
 - refined code
+
 now to... 
 - organize, package, deploy
 
