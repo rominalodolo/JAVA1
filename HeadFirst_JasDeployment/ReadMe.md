@@ -168,5 +168,10 @@ _" End-users launch a Java Web Start app by clicking on a link in a Web page. Bu
 ![workingapp](https://user-images.githubusercontent.com/83961643/174828578-2cd0b86b-63b8-43d8-b15a-59e53f65484b.jpeg)
 
 
+## Files in the Classes Folder 
+
+![filesinclasses](https://user-images.githubusercontent.com/83961643/174829027-53952a5f-d7c6-4401-85e3-2a195689dd7a.jpeg)
+
+
 ## Last Edit July 2022
 
