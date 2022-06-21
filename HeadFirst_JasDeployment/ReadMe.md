@@ -41,6 +41,8 @@ _" The key is a combination of directory structure organization and the ```-d```
 > - Make sure all your class files are in classes directory 
 > - Create a manifest.txt file that states which class has the main() method
 > - Run the jar tool to create a JAR file that contains everything in the classes directory, plus the mainfest 
+> `%cd MyProject/classes`
+> `%jar -cvmf manifest.txt app1.jar *.class` OR `%jar -cvmf manifest.txt app1.jar MyApp.class`
 
 ### Running (Executing) the JAR
 _" The JVM looks inside the JAR and expects to find what it needs right there. It won’t go digging into other directories, unless the class is part of a package, and even then the JVM looks only in the directories that match the package statement. "_
