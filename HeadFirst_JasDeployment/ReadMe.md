@@ -43,7 +43,7 @@ _" The key is a combination of directory structure organization and the ```-d```
 > - Run the jar tool to create a JAR file that contains everything in the classes directory, plus the mainfest 
 
 ### Running (Executing) the JAR
-" The JVM looks inside the JAR and expects to find what it needs right there. It won’t go digging into other directories, unless the class is part of a package, and even then the JVM looks only in the directories that match the package statement. "
+_" The JVM looks inside the JAR and expects to find what it needs right there. It won’t go digging into other directories, unless the class is part of a package, and even then the JVM looks only in the directories that match the package statement. "_
 
 `` %cd MyProject/classes ``
 `` %java -jar app1.jar `` 
@@ -77,9 +77,21 @@ Putting your class in a package:
 
 **NB: Always put a class into a directory structure that matches the package hierachy.** 
 
+![structure](https://user-images.githubusercontent.com/83961643/174783072-8953094c-cd81-4fca-abe7-2028b5cbd72b.jpeg)
 
 
 ### Compiling & Running packages 
+_" both the compiler and JVM have to be capable of finding your class and all of the other classes it uses. "_
+Java knows where the core API classes are but it doesn't know your how to find your classes. 
+
+- Compiling with the -d (directory) flag
+`` %cd MyProject/source `` Stay in your source directory 
+`` %javac -d ../classes com/headfirstjava/PackageExercise.java `` 
+To compile all the .java files in the com.headfirstjava package, use: `` %javac -d ../classes com/headfirstjava/*.java ``
+
+- Running your code
+`` %cd MyProject/classes ``
+`` %java com.headfirstjava.PackageExercise `` 
 
 ### -d 
 
