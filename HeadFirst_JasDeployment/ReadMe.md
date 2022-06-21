@@ -160,11 +160,13 @@ _" End-users launch a Java Web Start app by clicking on a link in a Web page. Bu
 ## Summary exercise 
 ![Data-3](https://user-images.githubusercontent.com/83961643/174574989-69c5bb62-5ad2-43ef-b031-0a06cb2bd6a5.png)
 
-Working Application in terminal
+
+## Working Application in terminal
 
 ![working](https://user-images.githubusercontent.com/83961643/174828556-227fa5af-274c-4687-9bb5-399ed29a9167.jpeg)
 
 ![workingapp](https://user-images.githubusercontent.com/83961643/174828578-2cd0b86b-63b8-43d8-b15a-59e53f65484b.jpeg)
+
 
 ## Last Edit July 2022
 
