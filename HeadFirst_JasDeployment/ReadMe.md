@@ -66,6 +66,19 @@ Package structure of the Java API for:
 
 ### Preventing package name conflicts 
 
+_" Packages can prevent name conflicts, but only if you choose a package name that’s guaranteed to be unique. The best way to do that is to preface your packages with your reverse domain name. "_
+
+![name](https://user-images.githubusercontent.com/83961643/174782237-b9af7e1c-f578-4e56-b18f-061f55e6d84e.jpeg)
+
+Putting your class in a package:
+1. Choose a package name
+2. Put a package in your class
+3. Set up a matching directory structure
+
+**NB: Always put a class into a directory structure that matches the package hierachy.** 
+
+
+
 ### Compiling & Running packages 
 
 ### -d 
