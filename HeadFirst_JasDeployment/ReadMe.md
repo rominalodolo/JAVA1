@@ -102,20 +102,44 @@ To compile all the .java files in the com.headfirstjava package, use: `` %javac 
 ### Executable package with JAR 
 1. Make sure all of your class files are within the correct package structure,under the classes directory.
 2. Create a manifest.txt file that states which class has the main() method, and be sure to use the fully-qualified class name
+
 `` Make a text file named manifest.txt that has a single line:
-`Main-Class: com.headfirstjava.PackageExercise`
+
+Main-Class: com.headfirstjava.PackageExercise
+
 Put the manifest file into the classes directory ``
+
 3. Run the jar tool to create a JAR file that contains the package directories plus the manifest
+
 `%cd MyProject/classes`
-4. 
+
+`%jar -cvmf manifest.txt packEx.jar com`
+
+
 
 
 ### Manifest file? 
+1. List the contents of a JAR
+2. Extract the contents of a JAR (i.e. unjar)
 
-### Java Web Start 
+
+### Java Web Start (JWS)
+_" End-users launch a Java Web Start app by clicking on a link in a Web page. But once the app downloads, it runs outside the browser, just like any other stand-alone Java application. In fact, a Java Web Start app is just an executable JAR that’s distributed over the Web. "_
+
+**How it works** 
+1. The client clicks on a Web page link to your JWS application (a .jnlp file).
+2. The Web server (HTTP) gets the request and sends back a .jnlp file (this is NOT the JAR).
+3. Java Web Start (a small ‘helper app’ on the client) is started up by the browser. The JWS helper app reads the .jnlp file, and asks the server for the MyApp.jar file.
+4. The Web server ‘serves’ up the requested .jar file.
+5. Java Web Start gets the JAR and starts the application by calling the specified main( ) method (just like an executable JAR).
 
 
 ### .jnlp file 
+1. create a .jnlp (Java Network Launch Protocol) file that describes your application
+2. JWS app reads and uses this file to find your JAR and launch the app
+3. It's a simple XML document that has several different things you can put in
+
+
 
 
 ## Summary exercise 
