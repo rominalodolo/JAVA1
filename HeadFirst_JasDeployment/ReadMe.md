@@ -103,11 +103,11 @@ To compile all the .java files in the com.headfirstjava package, use: `` %javac 
 1. Make sure all of your class files are within the correct package structure,under the classes directory.
 2. Create a manifest.txt file that states which class has the main() method, and be sure to use the fully-qualified class name
 
-`` Make a text file named manifest.txt that has a single line:
-
-Main-Class: com.headfirstjava.PackageExercise
-
-Put the manifest file into the classes directory ``
+> Make a text file named manifest.txt that has a single line:
+> 
+> Main-Class: com.headfirstjava.PackageExercise
+> 
+> Put the manifest file into the classes directory
 
 3. Run the jar tool to create a JAR file that contains the package directories plus the manifest
 
