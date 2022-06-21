@@ -94,8 +94,21 @@ To compile all the .java files in the com.headfirstjava package, use: `` %javac 
 `` %java com.headfirstjava.PackageExercise `` 
 
 ### -d 
+- let's you send your compiled class files into a directory other than the one where the source file is, 
+- knows to put the class into the correct directory structure for the package the class is in.
+- Compiling with `-d` tells the compiler to not just put your classes into the correct directory tree, but to build the directories if they don’t exist.
+- if the directories aren’t there, create them first and then put the class in the right place.
 
 ### Executable package with JAR 
+1. Make sure all of your class files are within the correct package structure,under the classes directory.
+2. Create a manifest.txt file that states which class has the main() method, and be sure to use the fully-qualified class name
+`` Make a text file named manifest.txt that has a single line:
+`Main-Class: com.headfirstjava.PackageExercise`
+Put the manifest file into the classes directory ``
+3. Run the jar tool to create a JAR file that contains the package directories plus the manifest
+`%cd MyProject/classes`
+4. 
+
 
 ### Manifest file? 
 
