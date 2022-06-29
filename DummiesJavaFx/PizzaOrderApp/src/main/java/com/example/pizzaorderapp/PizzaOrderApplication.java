@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class PizzaOrderApplication extends Application {
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(PizzaOrderApplication.class.getResource("hello-view.fxml"));
@@ -16,6 +17,8 @@ public class PizzaOrderApplication extends Application {
         stage.setScene(scene);
         stage.show();
     }
+
+
 
     public static void main(String[] args) {
         launch();
