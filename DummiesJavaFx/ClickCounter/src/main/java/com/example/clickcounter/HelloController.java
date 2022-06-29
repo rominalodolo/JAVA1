@@ -12,5 +12,10 @@ public class HelloController {
         welcomeText.setText("Welcome to the click counter application!");
     }
 
+    @FXML
+    protected void buttonClick() {
+        welcomeText.setText("You have clicked once.");
+    }
+
 
 }

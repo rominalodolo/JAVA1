@@ -13,4 +13,5 @@
 
     <Label fx:id="welcomeText"/>
     <Button text="Click Me!" onAction="#onHelloButtonClick"/>
+    <Button onMouseClicked="#buttonClick"/>
 </VBox>
