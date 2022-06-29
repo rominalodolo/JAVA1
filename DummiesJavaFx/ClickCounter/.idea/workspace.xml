@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c9da626-d59d-4a3b-b502-eba9692378ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/clickcounter/ClickCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/clickcounter/HelloController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/clickcounter/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clickcounter/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clickcounter/ClickCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/clickcounter/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/clickcounter/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PizzaOrderApp/src/main/java/com/example/pizzaorderapp/PizzaOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PizzaOrderApp/src/main/java/com/example/pizzaorderapp/PizzaOrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PizzaOrderApp/target/classes/com/example/pizzaorderapp/PizzaOrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PizzaOrderApp/target/classes/com/example/pizzaorderapp/PizzaOrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clickcounter/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clickcounter/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/clickcounter/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/clickcounter/HelloController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +64,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/clickcounter/ClickCounter.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
