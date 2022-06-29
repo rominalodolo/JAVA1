@@ -12,6 +12,5 @@ public class HelloController {
         welcomeText.setText("Welcome to the click counter application!");
     }
 
-    @FXML
 
 }

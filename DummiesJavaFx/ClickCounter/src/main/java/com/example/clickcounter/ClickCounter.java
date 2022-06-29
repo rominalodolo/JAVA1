@@ -18,10 +18,7 @@ public class ClickCounter extends Application {
     int iClickCount = 0;
 
     @Override
-    public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(ClickCounter.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 250, 150);
-        stage.setTitle("Click Counter!");
+    public void start(Stage primaryStage) throws IOException {
 
         btn = new Button();
         btn.setText("Click me please!");
@@ -34,8 +31,12 @@ public class ClickCounter extends Application {
         pane.setTop(lbl);
         pane.setCenter(btn);
 
-        stage.setScene(scene);
-        stage.show();
+        FXMLLoader fxmlLoader = new FXMLLoader(ClickCounter.class.getResource("hello-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 250, 150);
+
+        primaryStage.setTitle("Click Counter");
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 
     public void buttonClick()
@@ -53,6 +54,6 @@ public class ClickCounter extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 }
