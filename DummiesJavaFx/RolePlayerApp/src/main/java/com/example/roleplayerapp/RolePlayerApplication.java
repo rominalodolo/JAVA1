@@ -36,7 +36,35 @@ public class RolePlayerApplication extends Application {
         txtCharacter.setPromptText(
                 "Enter the name of the character here.");
 
-        
+        Label lblActor = new Label("Actor's Name:");
+        lblActor.setMinWidth(100);
+        lblActor.setAlignment(Pos.BOTTOM_RIGHT);
+
+        txtActor = new TextField();
+        txtActor.setMinWidth(200);
+        txtActor.setMaxWidth(200);
+        txtActor.setPromptText("Enter the name of the actor here.");
+
+        Button btnOK = new Button("OK");
+        btnOK.setMinWidth(75);
+        btnOK.setOnAction(e -> btnOK_Click() );
+
+        Button btnOK = new Button("OK");
+        btnOK.setMinWidth(75);
+        btnOK.setOnAction(e -> btnOK_Click() );
+
+        Button btnOK = new Button("OK");
+        btnOK.setMinWidth(75);
+        btnOK.setOnAction(e -> btnOK_Click() );
+
+        HBox paneActor = new HBox(20, lblActor, txtActor);
+        paneActor.setPadding(new Insets(10));
+
+        HBox paneButton = new HBox(20, btnOK);
+        paneButton.setPadding(new Insets(10));
+        paneButton.setAlignment(Pos.BOTTOM_RIGHT);
+
+        VBox pane = new VBox(10, paneCharacter, paneActor, paneButton);
 
 
         Scene scene = new Scene(pane);
@@ -77,6 +105,4 @@ public class RolePlayerApplication extends Application {
             a.showAndWait();
         }
     }
-
-
 }
