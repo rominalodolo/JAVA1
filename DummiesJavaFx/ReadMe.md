@@ -1,3 +1,8 @@
+# JavaFX Exercises from book 6 of the Dummies book
+> by Doug Lowe
+
+This was done with JRE & JDK version 8 
+
 # Preview of apps 
 
 
